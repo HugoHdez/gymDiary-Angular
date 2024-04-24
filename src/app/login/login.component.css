@@ -1,0 +1,35 @@
+/*:host makes reference to the whole login component itself*/
+:host{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-login{
+  text-align: center;
+  justify-content: center;
+  margin: 1.5em;
+}
+
+.form-login{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.form-group{
+  margin-bottom: 1em;
+}
+
+.have-account{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 1.5em;
+}
+
+.button-login{
+  margin-top: 1em;
+  width: 100%;
+}
+

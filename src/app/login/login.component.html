@@ -1,0 +1,23 @@
+<main class="justify-content-center container-login">
+  <header>
+    <h1 class="title-login">Login</h1>
+  </header>
+  <div class="have-account">
+    <button class="btn button-not-filled" onclick="">Don't have an account</button>
+    <button class="btn button-filled" onclick="">Already have an account</button>
+  </div>
+  <form class="form-login">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="Write your email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" name="password" placeholder="Write your password" required>
+    </div>
+    <div class="errorMessage"></div>
+    <div class="form-group">
+      <input class="btn button-filled btn-block button-login" type="submit" value="Login">
+    </div>
+  </form>
+</main>
