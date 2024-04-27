@@ -12,7 +12,6 @@ export class NavComponent {
   constructor(private router: Router) {}
 
   redirectToProfile() {
-    this.router.navigate(['../../profile']);
+    this.router.navigate(['profile']);
   }
-
 }
