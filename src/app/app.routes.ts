@@ -16,7 +16,8 @@ export const routes: Routes = [
   { path: 'homePage', component: HomePageComponent},
   { path: 'exercises', component: ExercisesComponent},
   { path: 'exercisesByMuscle', component: ExercisesByMuscleComponent},
-  { path: 'exerciseByMuscle', component: ExerciseByMuscleComponent}
+  { path: 'exerciseByMuscle', component: ExerciseByMuscleComponent},
+  { path: '', redirectTo: 'landingPage', pathMatch: 'full' }
 
 ];
 
