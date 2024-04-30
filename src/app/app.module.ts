@@ -12,6 +12,8 @@ import {environment} from "../environments/environment";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { RegisterComponent } from './register/register.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { RouterModule } from '@angular/router';
+import { routes } from './app.routes';
 
 @NgModule({
   declarations: [

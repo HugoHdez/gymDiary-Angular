@@ -3,7 +3,6 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "gymdiary": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -35,7 +34,6 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
