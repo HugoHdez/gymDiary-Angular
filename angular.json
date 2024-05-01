@@ -3,6 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "gymdiary": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -123,5 +124,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

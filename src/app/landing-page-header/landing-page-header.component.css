@@ -1,0 +1,55 @@
+
+*{
+  font-family: Bricolage Grotesque, Arial;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: Bricolage Grotesque, serif;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.loginRegisterButtons{
+  width: 100%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+
+button {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.button-filled {
+  background: #080A45;
+  color: white;
+}
+
+.no-filled {
+  background: white;
+  color: #080A45;
+}
+.button-login {
+  background-color:  #090b85;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.button-filled{
+  background-color:  #090b85;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.button-login:hover, .button-filled:hover {
+  color: white;
+  background: #080A45;
+}

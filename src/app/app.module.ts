@@ -14,12 +14,18 @@ import { RegisterComponent } from './register/register.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
+import {HeaderComponent} from "./header/header.component";
+import {FooterComponent} from "./footer/footer.component";
+import { LandingPageHeaderComponent } from './landing-page-header/landing-page-header.component';
+import { ButtonLoginRegisterComponent } from './button-login-register/button-login-register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    LandingPageHeaderComponent,
+    ButtonLoginRegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +38,9 @@ import { routes } from './app.routes';
     provideFirestore(() => getFirestore()),
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HeaderComponent,
+    FooterComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
